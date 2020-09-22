@@ -1,13 +1,12 @@
 # PicturePuzzle
 Picture Puzzle using React Native
 
-A 3*3 puzzle is created using react native
+A 3*3 picture puzzle using react native
 
-The puzzle can be expanded to more tiles. 
+Buttons:
 
-There is a shuffle button that allows to re-shuffle the puzzle any number of times.
+1. Shuffle - Reshuffle the puzzle pieces any number of times
 
-Reset button would display the desired image and then reshuffle the puzzle within one second.
+2. Reset - Reset the puzzle to original picture. The puzzle is rescrambled in less than a second
 
-There is a button to check the whether the puzzle is resolved, which gives an alert, based on if the puzzle is resolved or not.
-
+3. Check - Gives an alert, whether the puzzle is correctly reassembled or not
