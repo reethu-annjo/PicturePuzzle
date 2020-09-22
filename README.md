@@ -1,7 +1,6 @@
 # PicturePuzzle
-Picture Puzzle using React Native
 
-A 3*3 picture puzzle using react native
+3*3 picture puzzle using react native
 
 Buttons:
 
