@@ -112,7 +112,6 @@ class PuzzleImageScreen extends Component {
           style={{
             height: this.DeviceWidth / 3,
             width: this.DeviceWidth / 3,
-            padding: 2,
           }}>
           <TouchableOpacity
             onPress={() => {
@@ -122,18 +121,16 @@ class PuzzleImageScreen extends Component {
               flex: 1,
               alignItems: 'center',
               backgroundColor: 'lightpink',
-              borderColor: 'red',
-              borderWidth: 1,
-              justifyContent: 'center',
             }}>
             <Image
               style={{
                 height: this.DeviceWidth / 3,
                 width: this.DeviceWidth / 3,
+                borderColor: 'red',
+                borderWidth: 2,
               }}
               source={display.image}
             />
-            {/*<Text style={{fontSize: 20}}>{display.id}</Text>*/}
           </TouchableOpacity>
         </View>
       ) : (
@@ -141,7 +138,6 @@ class PuzzleImageScreen extends Component {
           style={{
             height: this.DeviceWidth / 3,
             width: this.DeviceWidth / 3,
-            padding: 2,
           }}>
           <TouchableOpacity
             onPress={() => {
@@ -149,18 +145,16 @@ class PuzzleImageScreen extends Component {
             }}
             style={{
               flex: 1,
-              alignItems: 'center',
-              backgroundColor: 'lightpink',
-              justifyContent: 'center',
             }}>
             <Image
               style={{
                 height: this.DeviceWidth / 3,
                 width: this.DeviceWidth / 3,
+                transform: [{ scale: 0.9 }],
+                resizeMode: 'cover',
               }}
               source={display.image}
             />
-            {/*<Text style={{fontSize: 20}}>{display.id}</Text>*/}
           </TouchableOpacity>
         </View>
       );
@@ -181,7 +175,6 @@ class PuzzleImageScreen extends Component {
               flexWrap: 'wrap',
               flexDirection: 'row',
               width: '100%',
-              margin: 30,
             }}>
             {this.renderPuzzleImage(9)}
           </View>
