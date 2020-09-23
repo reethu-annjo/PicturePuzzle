@@ -10,4 +10,4 @@ Buttons:
 
 3. Check - Gives an alert, whether the puzzle is correctly reassembled or not
 
-![Alt text](picturePuzzleRecord.gif)
+![Alt text](picturePuzzleGiph.gif)
