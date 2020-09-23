@@ -9,3 +9,5 @@ Buttons:
 2. Reset - Reset the puzzle to original picture. The puzzle is rescrambled in less than a second
 
 3. Check - Gives an alert, whether the puzzle is correctly reassembled or not
+
+![Alt text](picturePuzzleRecord.gif)
